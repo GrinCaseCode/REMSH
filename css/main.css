@@ -920,3 +920,6 @@ form {
 .phone-mobile {
 	display: none;
 }
+.slider-billbord:not(.slick-initialized) > div:not(:first-child) {
+  display: none;
+}
