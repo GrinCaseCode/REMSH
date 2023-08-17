@@ -643,6 +643,7 @@ form {
 	line-height: 160%;
 	padding-bottom: 0;
 	border: none;
+	min-height: initial;
 }
 .item-event_big .item-event__title::before {
 	display: none;
@@ -921,5 +922,5 @@ form {
 	display: none;
 }
 .slider-billbord:not(.slick-initialized) > div:not(:first-child) {
-  display: none;
+	display: none;
 }
