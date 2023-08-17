@@ -565,8 +565,8 @@
 		padding: 20px 15px;
 	}
 	.unit-about .btn-main {
-		font-size: 13px;
-		padding: 0 14px;
+		font-size: 12px;
+		padding: 0 7px;
 		min-width: inherit;
 		flex: 1;
 	}
