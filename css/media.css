@@ -767,6 +767,9 @@
 		border-radius: 10px;
 		background-color: #cbc0a6;
 	}
+	.page-subdivisions {
+		padding-top: 27px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -835,7 +838,7 @@
 	}
 	.item-team__content {
 		padding: 10px;
-		height: 106px;
+		height: 95px;
 	}
 	.row_team {
 		margin: 0 -4px;
@@ -847,7 +850,7 @@
 	.item-team {
 		font-size: 11px;
 		line-height: 140%;
-		height: 310px;
+		height: 300px;
 	}
 	.item-team__name br {
 		display: none;
@@ -856,7 +859,7 @@
 		padding: 20px;
 	}
 }
- 
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
