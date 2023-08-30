@@ -48,6 +48,44 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		appendArrows: $(".arrows-billbord"),
 	});
 
+	$('.slider-gallery').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows: false,
+				dots: true,
+			}
+		}
+		]
+	});
+
+	$('.tabs a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings().find(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+
+	}); 
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 
