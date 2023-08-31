@@ -18,6 +18,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $menu.removeClass("fixed").addClass("default");
   }
 
+$(".item-question__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(".item-question__head").not(this).parent(".item-question").removeClass("active");
+		$(".item-question__head").not(this).siblings(".item-question__content").slideUp(200);
+	});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
