@@ -84,7 +84,7 @@
 		padding-bottom: 25px;
 	}
 	.about-block {
-		padding: 34px 30px;
+		padding: 28px 30px;
 	}
 	.unit-about__icon img {
 		max-width: 90px;
@@ -391,6 +391,7 @@
 	.title-page {
 		font-size: 23px;
 	}
+	.page-archive .item-doc,
 	.page-project .item-doc,
 	.page-schedule .item-doc {
 		padding: 30px 15px;
@@ -527,6 +528,85 @@
 	.thanks-block .btn-main {
 		height: 54px;
 		padding: 0 33px;
+	}
+	.page-archive .row_docs {
+		margin-top: 30px;
+	}
+	.page-archive .row_docs > div {
+		margin-bottom: 22px;
+	}
+	.card-person {
+		font-size: 13px;
+	}
+	.card-person__image {
+		height: 290px;
+	}
+	.card-person__content {
+		padding: 15px;
+		padding-right: 7px;
+	}
+	.row_persons {
+		margin: 0 -7px;
+	}
+	.row_persons > div {
+		padding: 0 7px;
+		margin-bottom: 14px;
+	}
+	.title-small {
+		font-size: 17px;
+	}
+	.card-person .title-small {
+		margin-bottom: 6px;
+	}
+	.block-contacts {
+		padding: 0;
+		margin-right: 0;
+	}
+	.block-contacts__left {
+		padding: 35px 35px !important;
+		padding-right: 20px !important;
+	}
+	.list-soc li {
+		margin-top: 0;
+		margin-right: 9px;
+	}
+	.link-social {
+		font-size: 14px;
+		padding: 5px 12px;
+	}
+	.block-contacts .title-page {
+		padding-bottom: 25px;
+	}
+	.map-contact {
+		height: 451px;
+	}
+	.block-contacts__item {
+		margin-bottom: 24px;
+	}
+	.block-contacts .list-soc {
+		padding-bottom: 30px;
+	}
+	.block-form.block-form_main {
+		padding: 30px 75px;
+		margin-left: 0;
+	}
+	.block-button .btn-main {
+		min-width: 230px;
+	}
+	.block-button__icon img {
+		max-width: 97px;
+	}
+	.block-button {
+		height: 180px;
+	}
+	.row_about > div {
+		margin-top: 20px;
+	}
+	.item-about {
+		padding-bottom: 19px;
+	}
+	.item-about__title::after {
+		width: 200px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -703,6 +783,7 @@
 	.title-page {
 		font-size: 20px;
 	}
+	.page-archive .item-doc,
 	.page-project .item-doc,
 	.page-schedule .item-doc {
 		padding: 20px 15px;
@@ -758,6 +839,34 @@
 	.thanks-block {
 		height: 485px;
 		padding: 0px 39px;
+	}
+	.card-person__image {
+		height: 235px;
+	}
+	.card-person {
+		line-height: 160%;
+	}
+	.card-person p {
+		margin-bottom: 5px;
+	}
+	.block-contacts {
+		padding: 0;
+	}
+	.block-contacts__left {
+		padding: 35px 25px !important;
+		padding-right: 10px !important;
+	}
+	.link-social {
+		font-size: 11px;
+	}
+	.list-soc li {
+		margin-right: 6px;
+	}
+	.block-form.block-form_main {
+		padding: 30px 45px;
+	}
+	.block-button {
+		height: 155px;
 	}
 }
 
@@ -1054,6 +1163,7 @@
 	.wrapper-projects + .text-special.text-special_olympiad {
 		margin-top: 0;
 	}
+	.map-contact .ymaps-2-1-79-balloon,
 	#map .ymaps-2-1-79-balloon {
 		margin-left: 0;
 		margin-top: 0;
@@ -1090,6 +1200,47 @@
 	.thanks-block .btn-main {
 		height: 50px;
 		padding: 0 24px;
+	}
+	.page-archive {
+		padding-top: 22px;
+		padding-bottom: 25px;
+	}
+	.page-archive .row_docs > div {
+		margin-bottom: 14px;
+	}
+	.page-archive .image-simple {
+		margin-top: 20px;
+	}
+	.page-archive .title-section {
+		padding-bottom: 13px;
+	}
+	.link-social {
+		font-size: 13px;
+	}
+	.block-contacts__left {
+		padding: 35px !important;
+	}
+	.map-contact {
+		height: 300px;
+	}
+	.block-contacts__item {
+		margin-bottom: 15px;
+	}
+	.block-form.block-form_main .checkbox {
+		justify-content: center;
+		margin: 0;
+		margin-top: 25px;
+	}
+	.col_checkbox {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.block-button .btn-main {
+		width: 300px;
+		min-width: initial;
+	}
+	.link-header {
+		font-size: 13px;
 	}
 }
 
@@ -1253,6 +1404,15 @@
 	}
 	.thanks-block {
 		background-position: 20% 50%;
+	}
+	.block-contacts .list-soc {
+		padding-bottom: 10px;
+	}
+	.block-contacts .title-page {
+		padding-bottom: 13px;
+	}
+	.block-contacts__item {
+		margin-bottom: 15px;
 	}
 }
 
@@ -1426,6 +1586,57 @@
 	}
 	.thanks-block {
 		margin: 0 -15px;
+	}
+	.card-person__image {
+		height: 210px;
+	}
+	.row_persons {
+		margin: 0 -4px;
+	}
+	.row_persons > div {
+		padding: 0 4px;
+		margin-bottom: 8px;
+	}
+	.title-small {
+		font-size: 16px;
+	}
+	.card-person {
+		line-height: 140%;
+	}
+	.card-person__content {
+		padding: 12px;
+		padding-right: 5px;
+	}
+	.block-form.block-form_main {
+		padding: 30px 22px;
+	}
+	.block-contacts {
+		padding: 0;
+	}
+	.block-contacts__left {
+		padding: 25px !important;
+	}
+	.link-social {
+		font-size: 12px;
+	}
+	.list-soc li {
+		margin-bottom: 10px;
+	}
+	.block-button {
+		height: 140px;
+		padding: 0 15px;
+	}
+	.block-button .btn-main {
+		font-size: 13px;
+	}
+	.block-button__icon {
+		margin-right: 8px;
+	}
+	.block-button__icon img {
+		max-width: 87px;
+	}
+	.item-about__title::after {
+		width: 155px;
 	}
 }
 

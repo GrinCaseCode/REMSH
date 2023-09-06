@@ -90,7 +90,6 @@ $(".item-question__head").click(function() {
 		$(this).parent().parent().siblings().find(".tab-pane").fadeOut(0);
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(200);
-
 	}); 
 
 	$(".input-phone").mask("+7 (999) 999-99-99");

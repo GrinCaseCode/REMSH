@@ -338,7 +338,7 @@ form {
 	padding-top: 63px;
 }
 .about-block {
-	padding: 46px 54px;
+	padding: 38px 54px;
 	border-radius: 15px;
 	background: #F3F2EF;
 }
@@ -348,7 +348,7 @@ form {
 	line-height: 160%;
 }
 .about-block .title-section {
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	max-width: 880px;
 }
 .row_about > div {
@@ -356,7 +356,7 @@ form {
 }
 .item-about {
 	padding: 17px 32px;
-	padding-bottom: 32px;
+	padding-bottom: 20px;
 	border-radius: 15px;
 	background: #FFF;
 	min-height: 100%;
@@ -1384,6 +1384,9 @@ form {
 	justify-content: center;
 	transition: all 0.3s;
 }
+.item-question__head i::before {
+	transition: all 0.3s;
+}
 .item-question.active .item-question__head i::before {
 	transform: rotate(180deg);
 }
@@ -2001,6 +2004,7 @@ form {
 	background-color: #F3F2EF;
 	width: 100%;
 }
+.map-contact .ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content,
 #map .ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content {
 	margin: 0 !important;
 	padding-left: 0 !important;
@@ -2014,18 +2018,22 @@ form {
 	margin: 0 auto;
 	display: block;
 }
-.ymaps-2-1-79-balloon__close-button {
+.map-contact .ymaps-2-1-79-balloon__close-button,
+#map .ymaps-2-1-79-balloon__close-button {
 	display: none !important;
 }
+.map-contact .ymaps-2-1-79-balloon,
 #map .ymaps-2-1-79-balloon {
 	margin-left: 17px; 
 	margin-top: 10px;
 	border-radius: 10px;
 	box-shadow: 0px 5px 10px 0px rgba(119, 119, 119, 0.10);
 }
+.map-contact .ymaps-2-1-79-balloon_to_top .ymaps-2-1-79-balloon__tail,
 #map .ymaps-2-1-79-balloon_to_top .ymaps-2-1-79-balloon__tail {
 	display: none !important;
 }
+.map-contact .ymaps-2-1-79-balloon__layout,
 #map .ymaps-2-1-79-balloon__layout {
 	border-radius: 10px;
 }
@@ -2069,3 +2077,147 @@ form {
 	height: 58px;
 	padding: 0 40px;
 } 
+.image-simple img {
+	max-width: 100%;
+	border-radius: 15px;
+	height: auto;
+	display: block;
+}
+.page-archive {
+	padding-top: 27px;
+	padding-bottom: 40px;
+}
+.page-archive .title-section {
+	padding-bottom: 17px;
+}
+.page-archive .item-doc {
+	padding: 35px 16px;
+	padding-right: 78px;
+	font-size: 20px;
+}
+.page-archive .row_docs {
+	margin-top: 50px;
+}
+.page-archive .row_docs > div {
+	margin-bottom: 30px;
+}
+.card-person {
+	min-height: 100%;
+	line-height: 180%;
+	border-radius: 15px;
+	background: #F3F2EF;
+	color: #666565;
+}
+.card-person__image {
+	height: 350px;
+	border-radius: 15px;
+	display: block;
+	width: 100%;
+}
+.card-person__image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+}
+.title-small {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 140%; 
+}
+.card-person .title-small {
+	margin-bottom: 9px;
+}
+.card-person__content {
+	padding: 19px;
+	padding-right: 9px;
+}
+.row_persons > div {
+	margin-bottom: 30px;
+}
+.map-contact {
+	height: 466px;
+	overflow: hidden;
+	border-radius: 15px;
+	background-color: #ccc;
+}
+.block-contacts {
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0;
+}
+.block-contacts__left {
+	padding: 23px 40px;
+}
+.list-soc {
+	display: flex;
+	align-items: center;
+}
+.list-soc li {
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+.list-soc li:last-child {
+	margin-right: 0px;
+}
+.block-contacts .title-page {
+	padding-bottom: 30px;
+}
+.block-contacts__item {
+	margin-bottom: 20px;
+}
+.block-form.block-form_main {
+	padding: 30px 173px;
+	margin: 0;
+}
+.block-form.block-form_main .checkbox {
+	margin-bottom: 33px;
+	margin-top: 0;
+	justify-content: flex-start;
+}
+.block-form.block-form_main .btn-main {
+	margin: 0;
+}
+.block-form.block-form_main .item-form textarea {
+	height: 117px;
+}
+.block-button {
+	height: 201px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	background: #F3F2EF;
+}
+.block-button .btn-main {
+	min-width: 276px;
+}
+.block-button__icon {
+	margin-right: 17px;
+}
+.block-button__icon img {
+	max-width: 109px;
+}
+.bottom-buttons {
+	padding-bottom: 30px;
+}
+.item-about__title {
+	border: none;
+}
+.item-about__title::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 231px;
+	max-width: 100%;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background: #C69D81;
+}
+.row_about > div {
+	margin-top: 27px;
+}
