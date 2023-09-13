@@ -619,36 +619,8 @@
 		padding: 5px 15px;
 	}
 	.menu ul {
-    max-height: calc(100vh - 105px);
-}
-.menu__haschild > a::after {
-	width: 19px;
-	height: 19px;
-	font-size: 12px;
-	right: 12px;
-		content: "\f078";
-	color: #000;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	position: absolute;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	line-height: 1;
-	font-family: "Font Awesome 5 Pro";
-	font-weight: 700;
-	transition: all 0.3s;
-}
-.menu__haschild > a.active::after {
-	transform: rotate(180deg);
-}
+		max-height: calc(100vh - 105px);
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -1299,6 +1271,34 @@
 		padding: 0;
 		display: inline;
 		border: none;
+	}
+	.menu__haschild > a::after {
+		width: 19px;
+		height: 19px;
+		font-size: 12px;
+		right: 12px;
+		content: "\f078";
+		color: #000;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		position: absolute;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		line-height: 1;
+		font-family: "Font Awesome 5 Pro";
+		font-weight: 700;
+		transition: all 0.3s;
+	}
+	.menu__haschild > a.active::after {
+		transform: rotate(180deg);
 	}
 }
 
