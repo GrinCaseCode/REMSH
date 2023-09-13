@@ -39,6 +39,11 @@ $(".item-question__head").click(function() {
 		}
 	});
 
+	$(".menu__haschild > a").click(function() {
+		$(this).toggleClass("active");
+		$(this).siblings("ul").slideToggle(200);
+	});
+
 	$(".item-article[data-video-id]").modalVideo();
 
 	//слайдер
