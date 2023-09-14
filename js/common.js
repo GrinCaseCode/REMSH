@@ -39,7 +39,7 @@ $(".item-question__head").click(function() {
 		}
 	});
 
-	$(".menu__haschild > a").click(function() {
+	$(".menu-mobile .menu__haschild > a").click(function() {
 		$(this).toggleClass("active");
 		$(this).siblings("ul").slideToggle(200);
 	});
